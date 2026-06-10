@@ -1,5 +1,7 @@
 ## ms-produtos
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/evelyg/ms-produtos?logo=docker)](https://hub.docker.com/r/evelyg/ms-produtos)
+
 Microsserviço `ms-produtos` para Marketplace — API REST de produtos.
 
 Como rodar localmente (com Docker):

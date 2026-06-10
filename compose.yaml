@@ -16,7 +16,7 @@ services:
       retries: 10
 
   ms-produtos:
-    build: .
+    image: evelyg/ms-produtos:latest
     container_name: app-ms-produtos
     ports:
       - "8080:8080"
