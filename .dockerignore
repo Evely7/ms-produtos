@@ -1,0 +1,8 @@
+target/
+.mvn/
+.git/
+*.log
+*.tmp
+.idea/
+/.settings/
+node_modules/

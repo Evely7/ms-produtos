@@ -1,0 +1,18 @@
+meta {
+  name: Atualizar Produto
+  type: http
+  seq: 4
+}
+put {
+  url: http://localhost:8080/produtos/1
+  body: json
+  auth: none
+}
+body:json {
+  {
+    "nome": "Tomate Cereja",
+    "descricao": "Tomate cereja fresquinho",
+    "preco": 7.00,
+    "quantidade": 50
+  }
+}

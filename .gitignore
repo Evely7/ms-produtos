@@ -1,0 +1,21 @@
+# Maven
+/target/
+
+# Logs
+*.log
+hs_err_pid*.log
+
+# IDE
+/.idea/
+.vscode/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+
+# Other
+*.class
